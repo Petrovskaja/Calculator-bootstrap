@@ -1,0 +1,24 @@
+body {
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+}
+
+.wrapper{
+	width: 250px;
+	margin: 50px auto;
+}
+
+#ravno {
+	width: 5px;
+	margin-top: 10px;
+}
+
+.floating-box {
+    float: left;
+    width: 36px;
+    margin: 6px;
+}
+
+.btn-default {
+	margin: 5px 5px 5px 5px
+}

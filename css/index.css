@@ -1,0 +1,23 @@
+body {
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+}
+	
+.login-wrapper {
+	width: 350px;
+	margin: 50px auto;
+}
+
+.red-border{
+	border: 2px solid red;
+}
+
+.auth-errorOff{
+	color: red;
+	display: none;
+}
+
+.auth-errorOn{
+	color: red;
+	display: block;
+}

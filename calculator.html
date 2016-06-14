@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CALCULATOR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/calculator.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="wrapper">
+      <h1>CALCULATOR</h1>
+      <h3>Введите числа</h3>
+        <div class="form-group" id="">       
+<div class="floating-box"><input type="text" class="form-control firstNumber" id="firstNumber"></div>
+          <div class="floating-box"><input type="text" class="form-control znak" id="znak"></div>
+          <div class="floating-box"><input type="text" class="form-control secondNumber" id="secondNumber"></div>
+          <div class="floating-box" id="ravno">
+           =</div>
+           <div class="floating-box">
+           <input type="text" class="form-control result" id="result"></div>
+        </div>
+      
+      
+<div class="after-box">
+        <div>
+          <button id="btn-1" type="button" class="btn btn-default btn-calc-1">1</button>
+          <button id="btn-2" type="button" class="btn btn-default btn-calc-2">2</button>
+          <button id="btn-3" type="button" class="btn btn-default btn-calc-3">3</button>
+          <button id="btnPlus" type="button" class="btn btn-default btn-calc-plus">+</button>
+        </div>
+        <div>
+          <button id="btn-4" type="button" class="btn btn-default btn-calc-4">4</button>
+          <button id="btn-5" type="button" class="btn btn-default btn-calc-5">5</button>
+          <button id="btn-6" type="button" class="btn btn-default btn-calc-6">6</button> 
+          <button id="btnMinus" type="button" class="btn btn-default btn-calc-minus">-</button>
+        </div>
+        <div>
+          <button id="btn-7" type="button" class="btn btn-default btn-calc-7">7</button>
+          <button id="btn-8" type="button" class="btn btn-default btn-calc-8">8</button>
+          <button id="btn-9" type="button" class="btn btn-default btn-calc-9">9</button>
+          <button id="btnUmn" type="button" class="btn btn-default btn-calc-umn">*</button>
+        </div>
+        <div>
+          <button id="btn-0" type="button" class="btn btn-default btn-calc-0">0</button>
+          <button id="btn-C" type="button" class="btn btn-default btn-calc-C">C</button>
+          <button id="btnResult" type="button" class="btn btn-default btn-calc-result">=</button> 
+          <button id="btnDel" type="button" class="btn btn-default btn-calc-del">/</button> 
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/calculator.js"></script>
+
+  </body>
+  </html>
